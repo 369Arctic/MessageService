@@ -1,0 +1,68 @@
+﻿@model List<MessageRecentViewer.Models.Message>
+
+<h2>Messages from the last minute</h2>
+
+<button id="refreshButton" class="btn btn-primary">Просмотреть сообщения за 1 минуту</button>
+
+<table class="table" id="messagesTable">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Content</th>
+            <th>Timestamp</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var message in Model)
+        {
+            <tr>
+                <td>@message.Id</td>
+                <td>@message.Content</td>
+                <td>@message.Timestamp</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    function loadMessages() {
+        console.log("Начинается загрузка сообщений..."); 
+
+        $.ajax({
+            url: '@Url.Action("GetRecentMessages", "MessageRecent")',
+            type: 'GET',
+            success: function (data) {
+                console.log("Сообщения успешно загружены."); 
+
+                var tbody = $('#messagesTable tbody');
+                tbody.empty();
+
+                data.forEach(function (message) {
+                    var row = '<tr>' +
+                        '<td>' + message.id + '</td>' +
+                        '<td>' + message.content + '</td>' +
+                        '<td>' + message.timestamp + '</td>' +
+                        '</tr>';
+                    tbody.append(row);
+                });
+            },
+            error: function () {
+                console.error("Ошибка при загрузке сообщений."); 
+                alert('Ошибка при загрузке сообщений.');
+            }
+        });
+    }
+
+    // Ручное обновление таблицы по кнопке
+    $('#refreshButton').click(function () {
+        console.log("Пользователь нажал кнопку для обновления сообщений."); 
+        loadMessages();
+    });
+
+    // Автоматическое обновление таблицы каждые 60 секунд
+    setInterval(function () {
+        console.log("Автоматическое обновление сообщений."); 
+        loadMessages();
+    }, 60000); 
+</script>

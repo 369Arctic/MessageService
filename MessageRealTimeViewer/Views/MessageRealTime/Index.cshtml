@@ -1,0 +1,50 @@
+﻿@{
+    ViewBag.Title = "Real-Time Messages";
+}
+
+<h2 class="text-center mt-4">Real-Time Messages</h2>
+
+<div class="container mt-3">
+    <div id="messages" class="list-group"></div>
+</div>
+
+<script>
+    // Устанавливаем соединение с WebSocket-сервером по указанному URL
+    let socket = new WebSocket("wss://localhost:5001/ws");
+
+    // Обрабатываем входящие сообщения от WebSocket-сервера
+    socket.onmessage = function (event) {
+        // Создаем новый элемент div для отображения сообщения
+        let messageElement = document.createElement('div');
+        messageElement.classList.add('list-group-item', 'list-group-item-action', 'mb-2');
+        messageElement.textContent = event.data; // Устанавливаем текст сообщения
+
+        // Добавляем новое сообщение в контейнер с id 'messages'
+        document.getElementById('messages').appendChild(messageElement);
+    };
+
+    // Обрабатываем ошибки WebSocket-соединения
+    socket.onerror = function (error) {
+        console.error("WebSocket Error: " + error.message);
+    };
+</script>
+
+<style>
+    .container {
+        max-width: 600px;
+    }
+    #messages {
+        max-height: 500px;
+        overflow-y: auto;
+        border: 1px solid #ddd;
+        padding: 10px;
+        border-radius: 5px;
+        background-color: #f8f9fa;
+    }
+    .list-group-item {
+        background-color: #ffffff;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        box-shadow: 0 2px 2px rgba(0, 0, 0, 0.05);
+    }
+</style>
