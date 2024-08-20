@@ -46,6 +46,7 @@ namespace MessageService.Controllers
         [HttpGet("/ws")]
         public async Task GetWebSocket()
         {
+
             if (!HttpContext.WebSockets.IsWebSocketRequest)
             {
                 _logger.LogWarning("Запрос на WebSocket соединение не был WebSocket запросом.");
@@ -58,6 +59,8 @@ namespace MessageService.Controllers
             _logger.LogInformation("WebSocket соединение установлено.");
 
             await ReceiveAndHandleWebSocketMessages(webSocket);
+
+
         }
 
         [HttpGet("get")]
@@ -100,19 +103,34 @@ namespace MessageService.Controllers
             var messageData = Encoding.UTF8.GetBytes($"{message.Id}: {message.Content} at {DateTime.Now}");
             var disconnectedClients = new List<WebSocket>();
 
-            foreach (var webSocket in WebSocketClients)
+            try
             {
-                if (webSocket.State == WebSocketState.Open)
+                _logger.LogInformation($"Count of WebSocketClients = {WebSocketClients.Count()}");
+
+                if (WebSocketClients.Count() == 0)
                 {
-                    await webSocket.SendAsync(new ArraySegment<byte>(messageData), WebSocketMessageType.Text, true, CancellationToken.None);
-                    _logger.LogInformation("Сообщение отправлено по WebSocket.");
+                    _logger.LogWarning("Нет открытых клиентов WebSocket");
                 }
-                else
+
+                foreach (var webSocket in WebSocketClients)
                 {
-                    disconnectedClients.Add(webSocket);
-                    _logger.LogWarning("Клиент WebSocket был отключен.");
+                    if (webSocket.State == WebSocketState.Open)
+                    {
+                        await webSocket.SendAsync(new ArraySegment<byte>(messageData), WebSocketMessageType.Text, true, CancellationToken.None);
+                        _logger.LogInformation("Сообщение отправлено по WebSocket.");
+                    }
+                    else
+                    {
+                        disconnectedClients.Add(webSocket);
+                        _logger.LogWarning("Клиент WebSocket был отключен.");
+                    }
                 }
             }
+            catch(Exception ex)
+            {
+                _logger.LogError(ex.Message);
+            }
+
 
             // Удаляем отключенных клиентов
             foreach (var client in disconnectedClients)

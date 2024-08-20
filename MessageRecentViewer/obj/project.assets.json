@@ -1253,11 +1253,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Виктор\\Desktop\\ООО Тестовое Кошелек\\Кошелек\\MessageService\\MessageRecentViewer\\MessageRecentViewer.csproj",
+      "projectUniqueName": "D:\\Git\\MessageService\\MessageRecentViewer\\MessageRecentViewer.csproj",
       "projectName": "MessageRecentViewer",
-      "projectPath": "C:\\Users\\Виктор\\Desktop\\ООО Тестовое Кошелек\\Кошелек\\MessageService\\MessageRecentViewer\\MessageRecentViewer.csproj",
+      "projectPath": "D:\\Git\\MessageService\\MessageRecentViewer\\MessageRecentViewer.csproj",
       "packagesPath": "C:\\Users\\Виктор\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Виктор\\Desktop\\ООО Тестовое Кошелек\\Кошелек\\MessageService\\MessageRecentViewer\\obj\\",
+      "outputPath": "D:\\Git\\MessageService\\MessageRecentViewer\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Виктор\\AppData\\Roaming\\NuGet\\NuGet.Config",

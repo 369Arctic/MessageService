@@ -9,24 +9,30 @@
 </div>
 
 <script>
-    // Устанавливаем соединение с WebSocket-сервером по указанному URL
-    let socket = new WebSocket("wss://localhost:5001/ws");
+    //let socket = new WebSocket("wss://localhost:5001/ws");
+    let socket = new WebSocket("ws://localhost:5001/ws");
+
+    socket.onopen = function() {
+    console.log("Соединение установлено.");
+        };
+
 
     // Обрабатываем входящие сообщения от WebSocket-сервера
     socket.onmessage = function (event) {
-        // Создаем новый элемент div для отображения сообщения
+        console.log("Start onmessage");
         let messageElement = document.createElement('div');
         messageElement.classList.add('list-group-item', 'list-group-item-action', 'mb-2');
-        messageElement.textContent = event.data; // Устанавливаем текст сообщения
+        messageElement.textContent = event.data; 
 
-        // Добавляем новое сообщение в контейнер с id 'messages'
         document.getElementById('messages').appendChild(messageElement);
     };
+
 
     // Обрабатываем ошибки WebSocket-соединения
     socket.onerror = function (error) {
         console.error("WebSocket Error: " + error.message);
     };
+
 </script>
 
 <style>

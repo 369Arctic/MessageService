@@ -30,7 +30,9 @@ namespace MessageSender.Controllers
 
                 using (var client = new HttpClient())
                 {
-                    client.BaseAddress = new Uri("https://localhost:5001/");
+                    //client.BaseAddress = new Uri("https://localhost:5001/");
+                    client.BaseAddress = new Uri("http://messageservice:5001/");
+
                     try
                     {
                         var response = await client.PostAsJsonAsync("api/Messages/send", message);

@@ -1,0 +1,102 @@
+2024-08-19 17:37:52.726 +05:00 [INF] User profile is available. Using 'C:\Users\Виктор\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-19 17:37:53.003 +05:00 [INF] Now listening on: https://localhost:5003
+2024-08-19 17:37:53.003 +05:00 [INF] Now listening on: http://localhost:5221
+2024-08-19 17:37:53.033 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-19 17:37:53.034 +05:00 [INF] Hosting environment: Development
+2024-08-19 17:37:53.034 +05:00 [INF] Content root path: C:\Users\Виктор\Desktop\ООО Тестовое Кошелек\Кошелек\MessageService\MessageRealTimeViewer
+2024-08-19 17:38:27.812 +05:00 [INF] Request starting HTTP/2 GET https://localhost:5003/ - null null
+2024-08-19 17:38:29.345 +05:00 [INF] Executing endpoint 'MessageRealTimeViewer.Controllers.HomeController.Index (MessageRealTimeViewer)'
+2024-08-19 17:38:29.394 +05:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller MessageRealTimeViewer.Controllers.HomeController (MessageRealTimeViewer).
+2024-08-19 17:38:29.408 +05:00 [INF] Executing ViewResult, running view Index.
+2024-08-19 17:38:29.725 +05:00 [INF] Executed ViewResult - view Index executed in 321.0916ms.
+2024-08-19 17:38:29.731 +05:00 [INF] Executed action MessageRealTimeViewer.Controllers.HomeController.Index (MessageRealTimeViewer) in 334.2939ms
+2024-08-19 17:38:29.731 +05:00 [INF] Executed endpoint 'MessageRealTimeViewer.Controllers.HomeController.Index (MessageRealTimeViewer)'
+2024-08-19 17:38:29.742 +05:00 [INF] Request finished HTTP/2 GET https://localhost:5003/ - 200 null text/html; charset=utf-8 1931.1435ms
+2024-08-19 17:38:29.842 +05:00 [INF] Request starting HTTP/2 GET https://localhost:5003/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - null null
+2024-08-19 17:38:29.842 +05:00 [INF] Request starting HTTP/2 GET https://localhost:5003/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-19 17:38:29.842 +05:00 [INF] Request starting HTTP/2 GET https://localhost:5003/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - null null
+2024-08-19 17:38:29.842 +05:00 [INF] Request starting HTTP/2 GET https://localhost:5003/lib/bootstrap/dist/css/bootstrap.min.css - null null
+2024-08-19 17:38:29.842 +05:00 [INF] Request starting HTTP/2 GET https://localhost:5003/MessageRealTimeViewer.styles.css?v=b6_OJVpJ8WLdWCuv35KXuTCR-IHYxsqNTOXlSc2BBlg - null null
+2024-08-19 17:38:29.843 +05:00 [INF] Request starting HTTP/2 GET https://localhost:5003/lib/jquery/dist/jquery.min.js - null null
+2024-08-19 17:38:29.883 +05:00 [INF] Request starting HTTP/2 GET https://localhost:5003/lib/bootstrap/dist/js/bootstrap.bundle.min.js - null null
+2024-08-19 17:38:29.896 +05:00 [INF] The file /lib/bootstrap/dist/css/bootstrap.min.css was not modified
+2024-08-19 17:38:29.896 +05:00 [INF] The file /js/site.js was not modified
+2024-08-19 17:38:29.896 +05:00 [INF] The file /lib/bootstrap/dist/js/bootstrap.bundle.min.js was not modified
+2024-08-19 17:38:29.896 +05:00 [INF] The file /MessageRealTimeViewer.styles.css was not modified
+2024-08-19 17:38:29.896 +05:00 [INF] The file /lib/jquery/dist/jquery.min.js was not modified
+2024-08-19 17:38:29.896 +05:00 [INF] The file /css/site.css was not modified
+2024-08-19 17:38:29.897 +05:00 [INF] Request finished HTTP/2 GET https://localhost:5003/MessageRealTimeViewer.styles.css?v=b6_OJVpJ8WLdWCuv35KXuTCR-IHYxsqNTOXlSc2BBlg - 304 null text/css 55.3957ms
+2024-08-19 17:38:29.897 +05:00 [INF] Request finished HTTP/2 GET https://localhost:5003/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - 304 null text/javascript 55.4242ms
+2024-08-19 17:38:29.897 +05:00 [INF] Request finished HTTP/2 GET https://localhost:5003/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - 304 null text/css 55.4502ms
+2024-08-19 17:38:29.897 +05:00 [INF] Request finished HTTP/2 GET https://localhost:5003/lib/bootstrap/dist/js/bootstrap.bundle.min.js - 304 null text/javascript 15.7109ms
+2024-08-19 17:38:29.897 +05:00 [INF] Request finished HTTP/2 GET https://localhost:5003/lib/bootstrap/dist/css/bootstrap.min.css - 304 null text/css 55.6471ms
+2024-08-19 17:38:29.897 +05:00 [INF] Request finished HTTP/2 GET https://localhost:5003/lib/jquery/dist/jquery.min.js - 304 null text/javascript 53.7501ms
+2024-08-19 17:38:29.911 +05:00 [INF] Request finished HTTP/2 GET https://localhost:5003/_framework/aspnetcore-browser-refresh.js - 200 13778 application/javascript; charset=utf-8 69.6452ms
+2024-08-19 17:38:30.031 +05:00 [INF] Request starting HTTP/2 GET https://localhost:5003/_vs/browserLink - null null
+2024-08-19 17:38:41.140 +05:00 [INF] Request finished HTTP/2 GET https://localhost:5003/_vs/browserLink - 200 null text/javascript; charset=UTF-8 11109.4003ms
+2024-08-19 18:53:47.691 +05:00 [INF] User profile is available. Using 'C:\Users\Виктор\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-19 18:53:48.157 +05:00 [INF] Now listening on: https://localhost:5003
+2024-08-19 18:53:48.157 +05:00 [INF] Now listening on: http://localhost:5221
+2024-08-19 18:53:48.182 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-19 18:53:48.182 +05:00 [INF] Hosting environment: Development
+2024-08-19 18:53:48.182 +05:00 [INF] Content root path: C:\Users\Виктор\Desktop\ООО Тестовое Кошелек\Кошелек\MessageService\MessageRealTimeViewer
+2024-08-19 18:54:13.347 +05:00 [INF] Request starting HTTP/2 GET https://localhost:5003/ - null null
+2024-08-19 18:54:15.734 +05:00 [INF] Executing endpoint 'MessageRealTimeViewer.Controllers.HomeController.Index (MessageRealTimeViewer)'
+2024-08-19 18:54:15.776 +05:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller MessageRealTimeViewer.Controllers.HomeController (MessageRealTimeViewer).
+2024-08-19 18:54:15.788 +05:00 [INF] Executing ViewResult, running view Index.
+2024-08-19 18:54:15.997 +05:00 [INF] Executed ViewResult - view Index executed in 213.023ms.
+2024-08-19 18:54:15.999 +05:00 [INF] Executed action MessageRealTimeViewer.Controllers.HomeController.Index (MessageRealTimeViewer) in 222.212ms
+2024-08-19 18:54:16.000 +05:00 [INF] Executed endpoint 'MessageRealTimeViewer.Controllers.HomeController.Index (MessageRealTimeViewer)'
+2024-08-19 18:54:16.003 +05:00 [INF] Request finished HTTP/2 GET https://localhost:5003/ - 200 null text/html; charset=utf-8 2657.44ms
+2024-08-19 18:54:24.695 +05:00 [INF] Request starting HTTP/2 GET https://localhost:5003/lib/bootstrap/dist/css/bootstrap.min.css - null null
+2024-08-19 18:54:24.695 +05:00 [INF] Request starting HTTP/2 GET https://localhost:5003/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - null null
+2024-08-19 18:54:24.697 +05:00 [INF] Request starting HTTP/2 GET https://localhost:5003/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-19 18:54:24.697 +05:00 [INF] Request starting HTTP/2 GET https://localhost:5003/MessageRealTimeViewer.styles.css?v=b6_OJVpJ8WLdWCuv35KXuTCR-IHYxsqNTOXlSc2BBlg - null null
+2024-08-19 18:54:25.961 +05:00 [INF] Request starting HTTP/2 GET https://localhost:5003/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - null null
+2024-08-19 18:54:26.002 +05:00 [INF] Request starting HTTP/2 GET https://localhost:5003/lib/bootstrap/dist/js/bootstrap.bundle.min.js - null null
+2024-08-19 18:54:26.031 +05:00 [INF] Request starting HTTP/2 GET https://localhost:5003/lib/jquery/dist/jquery.min.js - null null
+2024-08-19 18:54:27.409 +05:00 [INF] The file /js/site.js was not modified
+2024-08-19 18:54:27.409 +05:00 [INF] The file /lib/bootstrap/dist/js/bootstrap.bundle.min.js was not modified
+2024-08-19 18:54:27.409 +05:00 [INF] The file /MessageRealTimeViewer.styles.css was not modified
+2024-08-19 18:54:27.409 +05:00 [INF] The file /lib/bootstrap/dist/css/bootstrap.min.css was not modified
+2024-08-19 18:54:27.409 +05:00 [INF] The file /lib/jquery/dist/jquery.min.js was not modified
+2024-08-19 18:54:27.410 +05:00 [INF] The file /css/site.css was not modified
+2024-08-19 18:54:27.412 +05:00 [INF] Request finished HTTP/2 GET https://localhost:5003/MessageRealTimeViewer.styles.css?v=b6_OJVpJ8WLdWCuv35KXuTCR-IHYxsqNTOXlSc2BBlg - 304 null text/css 2715.9928ms
+2024-08-19 18:54:27.412 +05:00 [INF] Request finished HTTP/2 GET https://localhost:5003/lib/bootstrap/dist/css/bootstrap.min.css - 304 null text/css 2717.424ms
+2024-08-19 18:54:27.412 +05:00 [INF] Request finished HTTP/2 GET https://localhost:5003/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - 304 null text/javascript 1450.9953ms
+2024-08-19 18:54:27.412 +05:00 [INF] Request finished HTTP/2 GET https://localhost:5003/lib/bootstrap/dist/js/bootstrap.bundle.min.js - 304 null text/javascript 1423.9525ms
+2024-08-19 18:54:28.133 +05:00 [INF] Request finished HTTP/2 GET https://localhost:5003/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - 304 null text/css 2717.4208ms
+2024-08-19 18:54:27.412 +05:00 [INF] Request finished HTTP/2 GET https://localhost:5003/lib/jquery/dist/jquery.min.js - 304 null text/javascript 1381.1948ms
+2024-08-19 18:54:34.134 +05:00 [INF] Request starting HTTP/2 GET https://localhost:5003/_vs/browserLink - null null
+2024-08-19 18:54:34.138 +05:00 [INF] Request finished HTTP/2 GET https://localhost:5003/_framework/aspnetcore-browser-refresh.js - 200 13778 application/javascript; charset=utf-8 9440.9503ms
+2024-08-19 18:54:35.314 +05:00 [INF] Request finished HTTP/2 GET https://localhost:5003/_vs/browserLink - 200 null text/javascript; charset=UTF-8 1180.7393ms
+2024-08-19 18:55:08.271 +05:00 [INF] Request starting HTTP/2 GET https://localhost:5003/MessageRealTime - null null
+2024-08-19 18:55:08.277 +05:00 [INF] Executing endpoint 'MessageRealTimeViewer.Controllers.MessageRealTimeController.Index (MessageRealTimeViewer)'
+2024-08-19 18:55:08.278 +05:00 [INF] Route matched with {action = "Index", controller = "MessageRealTime"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller MessageRealTimeViewer.Controllers.MessageRealTimeController (MessageRealTimeViewer).
+2024-08-19 18:55:08.279 +05:00 [INF] Executing ViewResult, running view Index.
+2024-08-19 18:55:08.433 +05:00 [INF] Executed ViewResult - view Index executed in 154.3031ms.
+2024-08-19 18:55:08.434 +05:00 [INF] Executed action MessageRealTimeViewer.Controllers.MessageRealTimeController.Index (MessageRealTimeViewer) in 155.6829ms
+2024-08-19 18:55:08.434 +05:00 [INF] Executed endpoint 'MessageRealTimeViewer.Controllers.MessageRealTimeController.Index (MessageRealTimeViewer)'
+2024-08-19 18:55:08.434 +05:00 [INF] Request finished HTTP/2 GET https://localhost:5003/MessageRealTime - 200 null text/html; charset=utf-8 163.663ms
+2024-08-19 18:55:08.639 +05:00 [INF] Request starting HTTP/2 GET https://localhost:5003/_vs/browserLink - null null
+2024-08-19 18:55:08.661 +05:00 [INF] Request starting HTTP/2 GET https://localhost:5003/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-19 18:55:08.666 +05:00 [INF] Request finished HTTP/2 GET https://localhost:5003/_framework/aspnetcore-browser-refresh.js - 200 13778 application/javascript; charset=utf-8 5.0898ms
+2024-08-19 18:55:08.677 +05:00 [INF] Request finished HTTP/2 GET https://localhost:5003/_vs/browserLink - 200 null text/javascript; charset=UTF-8 37.6447ms
+2024-08-19 19:03:41.249 +05:00 [INF] User profile is available. Using 'C:\Users\Виктор\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-19 19:03:41.615 +05:00 [INF] Now listening on: https://localhost:5003
+2024-08-19 19:03:41.615 +05:00 [INF] Now listening on: http://localhost:5221
+2024-08-19 19:03:41.646 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-19 19:03:41.647 +05:00 [INF] Hosting environment: Development
+2024-08-19 19:03:41.647 +05:00 [INF] Content root path: C:\Users\Виктор\Desktop\ООО Тестовое Кошелек\Кошелек\MessageService\MessageRealTimeViewer
+2024-08-19 19:03:45.505 +05:00 [INF] Request starting HTTP/2 GET https://localhost:5003/ - null null
+2024-08-19 19:03:45.727 +05:00 [INF] Executing endpoint 'MessageRealTimeViewer.Controllers.HomeController.Index (MessageRealTimeViewer)'
+2024-08-19 19:03:45.764 +05:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller MessageRealTimeViewer.Controllers.HomeController (MessageRealTimeViewer).
+2024-08-19 19:03:45.775 +05:00 [INF] Executing ViewResult, running view Index.
+2024-08-19 19:03:45.928 +05:00 [INF] Executed ViewResult - view Index executed in 155.3803ms.
+2024-08-19 19:03:45.934 +05:00 [INF] Executed action MessageRealTimeViewer.Controllers.HomeController.Index (MessageRealTimeViewer) in 168.2742ms
+2024-08-19 19:03:45.934 +05:00 [INF] Executed endpoint 'MessageRealTimeViewer.Controllers.HomeController.Index (MessageRealTimeViewer)'
+2024-08-19 19:03:45.940 +05:00 [INF] Request finished HTTP/2 GET https://localhost:5003/ - 200 null text/html; charset=utf-8 435.8625ms
+2024-08-19 19:03:46.006 +05:00 [INF] Request starting HTTP/2 GET https://localhost:5003/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-19 19:03:46.006 +05:00 [INF] Request starting HTTP/2 GET https://localhost:5003/_vs/browserLink - null null
+2024-08-19 19:03:46.026 +05:00 [INF] Request finished HTTP/2 GET https://localhost:5003/_framework/aspnetcore-browser-refresh.js - 200 13778 application/javascript; charset=utf-8 20.6965ms
+2024-08-19 19:03:46.053 +05:00 [INF] Request finished HTTP/2 GET https://localhost:5003/_vs/browserLink - 200 null text/javascript; charset=UTF-8 46.3096ms

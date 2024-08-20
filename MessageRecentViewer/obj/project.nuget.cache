@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8BydQOJ6mmY=",
+  "dgSpecHash": "Hu6TBtuVvQc=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Виктор\\Desktop\\ООО Тестовое Кошелек\\Кошелек\\MessageService\\MessageRecentViewer\\MessageRecentViewer.csproj",
+  "projectFilePath": "D:\\Git\\MessageService\\MessageRecentViewer\\MessageRecentViewer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Виктор\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0\\microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\Виктор\\.nuget\\packages\\microsoft.extensions.configuration.binder\\8.0.0\\microsoft.extensions.configuration.binder.8.0.0.nupkg.sha512",

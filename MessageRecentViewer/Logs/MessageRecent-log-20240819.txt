@@ -1,0 +1,93 @@
+2024-08-19 17:37:52.780 +05:00 [INF] User profile is available. Using 'C:\Users\Виктор\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-19 17:37:53.122 +05:00 [INF] Now listening on: https://localhost:5004
+2024-08-19 17:37:53.122 +05:00 [INF] Now listening on: http://localhost:5268
+2024-08-19 17:37:53.145 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-19 17:37:53.145 +05:00 [INF] Hosting environment: Development
+2024-08-19 17:37:53.145 +05:00 [INF] Content root path: C:\Users\Виктор\Desktop\ООО Тестовое Кошелек\Кошелек\MessageService\MessageRecentViewer
+2024-08-19 17:38:27.811 +05:00 [INF] Request starting HTTP/2 GET https://localhost:5004/ - null null
+2024-08-19 17:38:29.351 +05:00 [INF] Executing endpoint 'MessageRecentViewer.Controllers.HomeController.Index (MessageRecentViewer)'
+2024-08-19 17:38:29.394 +05:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller MessageRecentViewer.Controllers.HomeController (MessageRecentViewer).
+2024-08-19 17:38:29.409 +05:00 [INF] Executing ViewResult, running view Index.
+2024-08-19 17:38:29.724 +05:00 [INF] Executed ViewResult - view Index executed in 320.6336ms.
+2024-08-19 17:38:29.726 +05:00 [INF] Executed action MessageRecentViewer.Controllers.HomeController.Index (MessageRecentViewer) in 331.1773ms
+2024-08-19 17:38:29.726 +05:00 [INF] Executed endpoint 'MessageRecentViewer.Controllers.HomeController.Index (MessageRecentViewer)'
+2024-08-19 17:38:29.736 +05:00 [INF] Request finished HTTP/2 GET https://localhost:5004/ - 200 null text/html; charset=utf-8 1928.2284ms
+2024-08-19 17:38:29.842 +05:00 [INF] Request starting HTTP/2 GET https://localhost:5004/lib/bootstrap/dist/css/bootstrap.min.css - null null
+2024-08-19 17:38:29.842 +05:00 [INF] Request starting HTTP/2 GET https://localhost:5004/MessageRecentViewer.styles.css?v=QBDANMMhFAjT2HTHMzw3_tdP3EAjtZhSydmEK85iIw0 - null null
+2024-08-19 17:38:29.842 +05:00 [INF] Request starting HTTP/2 GET https://localhost:5004/lib/jquery/dist/jquery.min.js - null null
+2024-08-19 17:38:29.842 +05:00 [INF] Request starting HTTP/2 GET https://localhost:5004/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - null null
+2024-08-19 17:38:29.844 +05:00 [INF] Request starting HTTP/2 GET https://localhost:5004/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-19 17:38:29.852 +05:00 [INF] Request starting HTTP/2 GET https://localhost:5004/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - null null
+2024-08-19 17:38:29.876 +05:00 [INF] Request starting HTTP/2 GET https://localhost:5004/lib/bootstrap/dist/js/bootstrap.bundle.min.js - null null
+2024-08-19 17:38:29.898 +05:00 [INF] The file /lib/bootstrap/dist/js/bootstrap.bundle.min.js was not modified
+2024-08-19 17:38:29.898 +05:00 [INF] The file /js/site.js was not modified
+2024-08-19 17:38:29.898 +05:00 [INF] The file /css/site.css was not modified
+2024-08-19 17:38:29.898 +05:00 [INF] The file /MessageRecentViewer.styles.css was not modified
+2024-08-19 17:38:29.898 +05:00 [INF] The file /lib/bootstrap/dist/css/bootstrap.min.css was not modified
+2024-08-19 17:38:29.899 +05:00 [INF] Request finished HTTP/2 GET https://localhost:5004/lib/bootstrap/dist/js/bootstrap.bundle.min.js - 304 null text/javascript 24.2542ms
+2024-08-19 17:38:29.899 +05:00 [INF] Request finished HTTP/2 GET https://localhost:5004/MessageRecentViewer.styles.css?v=QBDANMMhFAjT2HTHMzw3_tdP3EAjtZhSydmEK85iIw0 - 304 null text/css 57.525ms
+2024-08-19 17:38:29.899 +05:00 [INF] Request finished HTTP/2 GET https://localhost:5004/lib/bootstrap/dist/css/bootstrap.min.css - 304 null text/css 57.6333ms
+2024-08-19 17:38:29.899 +05:00 [INF] Request finished HTTP/2 GET https://localhost:5004/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - 304 null text/css 57.5261ms
+2024-08-19 17:38:29.899 +05:00 [INF] Request finished HTTP/2 GET https://localhost:5004/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - 304 null text/javascript 46.5496ms
+2024-08-19 17:38:29.900 +05:00 [INF] The file /lib/jquery/dist/jquery.min.js was not modified
+2024-08-19 17:38:29.902 +05:00 [INF] Request finished HTTP/2 GET https://localhost:5004/lib/jquery/dist/jquery.min.js - 304 null text/javascript 59.4641ms
+2024-08-19 17:38:29.912 +05:00 [INF] Request finished HTTP/2 GET https://localhost:5004/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 70.1591ms
+2024-08-19 17:38:30.031 +05:00 [INF] Request starting HTTP/2 GET https://localhost:5004/_vs/browserLink - null null
+2024-08-19 17:38:41.125 +05:00 [INF] Request finished HTTP/2 GET https://localhost:5004/_vs/browserLink - 200 null text/javascript; charset=UTF-8 11093.8735ms
+2024-08-19 18:53:47.487 +05:00 [INF] User profile is available. Using 'C:\Users\Виктор\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-19 18:53:47.857 +05:00 [INF] Now listening on: https://localhost:5004
+2024-08-19 18:53:47.858 +05:00 [INF] Now listening on: http://localhost:5268
+2024-08-19 18:53:47.917 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-19 18:53:47.917 +05:00 [INF] Hosting environment: Development
+2024-08-19 18:53:47.917 +05:00 [INF] Content root path: C:\Users\Виктор\Desktop\ООО Тестовое Кошелек\Кошелек\MessageService\MessageRecentViewer
+2024-08-19 18:54:13.346 +05:00 [INF] Request starting HTTP/2 GET https://localhost:5004/ - null null
+2024-08-19 18:54:15.815 +05:00 [INF] Executing endpoint 'MessageRecentViewer.Controllers.HomeController.Index (MessageRecentViewer)'
+2024-08-19 18:54:15.851 +05:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller MessageRecentViewer.Controllers.HomeController (MessageRecentViewer).
+2024-08-19 18:54:15.860 +05:00 [INF] Executing ViewResult, running view Index.
+2024-08-19 18:54:15.997 +05:00 [INF] Executed ViewResult - view Index executed in 139.6996ms.
+2024-08-19 18:54:15.998 +05:00 [INF] Executed action MessageRecentViewer.Controllers.HomeController.Index (MessageRecentViewer) in 146.819ms
+2024-08-19 18:54:15.998 +05:00 [INF] Executed endpoint 'MessageRecentViewer.Controllers.HomeController.Index (MessageRecentViewer)'
+2024-08-19 18:54:16.001 +05:00 [INF] Request finished HTTP/2 GET https://localhost:5004/ - 200 null text/html; charset=utf-8 2658.33ms
+2024-08-19 18:54:24.694 +05:00 [INF] Request starting HTTP/2 GET https://localhost:5004/MessageRecentViewer.styles.css?v=QBDANMMhFAjT2HTHMzw3_tdP3EAjtZhSydmEK85iIw0 - null null
+2024-08-19 18:54:24.694 +05:00 [INF] Request starting HTTP/2 GET https://localhost:5004/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - null null
+2024-08-19 18:54:24.694 +05:00 [INF] Request starting HTTP/2 GET https://localhost:5004/lib/bootstrap/dist/css/bootstrap.min.css - null null
+2024-08-19 18:54:24.695 +05:00 [INF] Request starting HTTP/2 GET https://localhost:5004/lib/jquery/dist/jquery.min.js - null null
+2024-08-19 18:54:24.696 +05:00 [INF] Request starting HTTP/2 GET https://localhost:5004/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - null null
+2024-08-19 18:54:26.004 +05:00 [INF] Request starting HTTP/2 GET https://localhost:5004/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-19 18:54:26.008 +05:00 [INF] Request starting HTTP/2 GET https://localhost:5004/lib/bootstrap/dist/js/bootstrap.bundle.min.js - null null
+2024-08-19 18:54:26.017 +05:00 [INF] Request starting HTTP/2 GET https://localhost:5004/_vs/browserLink - null null
+2024-08-19 18:54:27.405 +05:00 [INF] The file /lib/bootstrap/dist/css/bootstrap.min.css was not modified
+2024-08-19 18:54:27.405 +05:00 [INF] The file /lib/jquery/dist/jquery.min.js was not modified
+2024-08-19 18:54:27.405 +05:00 [INF] The file /lib/bootstrap/dist/js/bootstrap.bundle.min.js was not modified
+2024-08-19 18:54:27.405 +05:00 [INF] The file /js/site.js was not modified
+2024-08-19 18:54:27.408 +05:00 [INF] Request finished HTTP/2 GET https://localhost:5004/lib/bootstrap/dist/js/bootstrap.bundle.min.js - 304 null text/javascript 1400.5484ms
+2024-08-19 18:54:27.408 +05:00 [INF] Request finished HTTP/2 GET https://localhost:5004/lib/jquery/dist/jquery.min.js - 304 null text/javascript 2713.1111ms
+2024-08-19 18:54:27.408 +05:00 [INF] Request finished HTTP/2 GET https://localhost:5004/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - 304 null text/javascript 2711.5538ms
+2024-08-19 18:54:27.408 +05:00 [INF] Request finished HTTP/2 GET https://localhost:5004/lib/bootstrap/dist/css/bootstrap.min.css - 304 null text/css 2714.3848ms
+2024-08-19 18:54:27.409 +05:00 [INF] The file /css/site.css was not modified
+2024-08-19 18:54:27.409 +05:00 [INF] Request finished HTTP/2 GET https://localhost:5004/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - 304 null text/css 2714.9947ms
+2024-08-19 18:54:27.410 +05:00 [INF] The file /MessageRecentViewer.styles.css was not modified
+2024-08-19 18:54:27.410 +05:00 [INF] Request finished HTTP/2 GET https://localhost:5004/MessageRecentViewer.styles.css?v=QBDANMMhFAjT2HTHMzw3_tdP3EAjtZhSydmEK85iIw0 - 304 null text/css 2716.0355ms
+2024-08-19 18:54:27.418 +05:00 [INF] Request finished HTTP/2 GET https://localhost:5004/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 1433.9854ms
+2024-08-19 18:54:35.315 +05:00 [INF] Request finished HTTP/2 GET https://localhost:5004/_vs/browserLink - 200 null text/javascript; charset=UTF-8 9299.5284ms
+2024-08-19 18:55:17.943 +05:00 [INF] Request starting HTTP/2 GET https://localhost:5004/MessageRecent - null null
+2024-08-19 18:55:17.949 +05:00 [INF] Executing endpoint 'MessageRecentViewer.Controllers.MessageRecentController.Index (MessageRecentViewer)'
+2024-08-19 18:55:17.957 +05:00 [INF] Route matched with {action = "Index", controller = "MessageRecent"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller MessageRecentViewer.Controllers.MessageRecentController (MessageRecentViewer).
+2024-08-19 19:03:41.253 +05:00 [INF] User profile is available. Using 'C:\Users\Виктор\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-19 19:03:41.636 +05:00 [INF] Now listening on: https://localhost:5004
+2024-08-19 19:03:41.637 +05:00 [INF] Now listening on: http://localhost:5268
+2024-08-19 19:03:41.664 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-19 19:03:41.664 +05:00 [INF] Hosting environment: Development
+2024-08-19 19:03:41.665 +05:00 [INF] Content root path: C:\Users\Виктор\Desktop\ООО Тестовое Кошелек\Кошелек\MessageService\MessageRecentViewer
+2024-08-19 19:03:45.504 +05:00 [INF] Request starting HTTP/2 GET https://localhost:5004/ - null null
+2024-08-19 19:03:45.732 +05:00 [INF] Executing endpoint 'MessageRecentViewer.Controllers.HomeController.Index (MessageRecentViewer)'
+2024-08-19 19:03:45.764 +05:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller MessageRecentViewer.Controllers.HomeController (MessageRecentViewer).
+2024-08-19 19:03:45.776 +05:00 [INF] Executing ViewResult, running view Index.
+2024-08-19 19:03:45.927 +05:00 [INF] Executed ViewResult - view Index executed in 154.6022ms.
+2024-08-19 19:03:45.930 +05:00 [INF] Executed action MessageRecentViewer.Controllers.HomeController.Index (MessageRecentViewer) in 164.6424ms
+2024-08-19 19:03:45.930 +05:00 [INF] Executed endpoint 'MessageRecentViewer.Controllers.HomeController.Index (MessageRecentViewer)'
+2024-08-19 19:03:45.939 +05:00 [INF] Request finished HTTP/2 GET https://localhost:5004/ - 200 null text/html; charset=utf-8 438.1395ms
+2024-08-19 19:03:46.304 +05:00 [INF] Request starting HTTP/2 GET https://localhost:5004/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-19 19:03:46.304 +05:00 [INF] Request starting HTTP/2 GET https://localhost:5004/_vs/browserLink - null null
+2024-08-19 19:03:46.336 +05:00 [INF] Request finished HTTP/2 GET https://localhost:5004/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 31.7499ms
+2024-08-19 19:03:46.380 +05:00 [INF] Request finished HTTP/2 GET https://localhost:5004/_vs/browserLink - 200 null text/javascript; charset=UTF-8 75.8076ms

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Виктор\\Desktop\\ООО Тестовое Кошелек\\Кошелек\\MessageService\\MessageSender\\MessageSender.csproj": {}
+    "D:\\Git\\MessageService\\MessageSender\\MessageSender.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Виктор\\Desktop\\ООО Тестовое Кошелек\\Кошелек\\MessageService\\MessageSender\\MessageSender.csproj": {
+    "D:\\Git\\MessageService\\MessageSender\\MessageSender.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Виктор\\Desktop\\ООО Тестовое Кошелек\\Кошелек\\MessageService\\MessageSender\\MessageSender.csproj",
+        "projectUniqueName": "D:\\Git\\MessageService\\MessageSender\\MessageSender.csproj",
         "projectName": "MessageSender",
-        "projectPath": "C:\\Users\\Виктор\\Desktop\\ООО Тестовое Кошелек\\Кошелек\\MessageService\\MessageSender\\MessageSender.csproj",
+        "projectPath": "D:\\Git\\MessageService\\MessageSender\\MessageSender.csproj",
         "packagesPath": "C:\\Users\\Виктор\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Виктор\\Desktop\\ООО Тестовое Кошелек\\Кошелек\\MessageService\\MessageSender\\obj\\",
+        "outputPath": "D:\\Git\\MessageService\\MessageSender\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Виктор\\AppData\\Roaming\\NuGet\\NuGet.Config",

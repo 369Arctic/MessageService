@@ -1,0 +1,66 @@
+version: '3.8'
+
+services:
+  postgres:
+    image: postgres:15
+    container_name: messageservice-db
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: Stella123
+      POSTGRES_DB: MessageService
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+  messageservice:
+    build:
+      context: ./MessageService
+      dockerfile: Dockerfile
+    container_name: messageservice
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ConnectionStrings__DefaultConnection=Host=messageservice-db;Port=5432;Username=postgres;Password=Stella123;Database=MessageService
+    ports:
+      - "5001:5001"
+    depends_on:
+      - postgres
+
+  messagesender:
+    build:
+      context: ./MessageSender
+      dockerfile: Dockerfile
+    container_name: messagesender
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    ports:
+      - "5002:5002"
+    depends_on:
+      - postgres
+
+  messagerecentviewer:
+    build:
+      context: ./MessageRecentViewer
+      dockerfile: Dockerfile
+    container_name: messagerecentviewer
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    ports:
+      - "5004:5004"
+    depends_on:
+      - postgres
+
+  messagerealtimeviewer:
+    build:
+      context: ./MessageRealTimeViewer
+      dockerfile: Dockerfile
+    container_name: messagerealtimeviewer
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    ports:
+      - "5003:5003"
+    depends_on:
+      - messageservice
+
+volumes:
+  postgres_data:

@@ -7,9 +7,14 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MessageService", "MessageSe
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MessageSender", "MessageSender\MessageSender.csproj", "{4F9ECA1D-D3EA-4051-BFC9-AF06B556CD79}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessageRealTimeViewer", "MessageRealTimeViewer\MessageRealTimeViewer.csproj", "{15FDAB97-2F3B-404F-922A-6E4BBC337E87}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MessageRealTimeViewer", "MessageRealTimeViewer\MessageRealTimeViewer.csproj", "{15FDAB97-2F3B-404F-922A-6E4BBC337E87}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessageRecentViewer", "MessageRecentViewer\MessageRecentViewer.csproj", "{FE8F7C69-C0BC-45DE-ABC1-B0FB459A63C6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MessageRecentViewer", "MessageRecentViewer\MessageRecentViewer.csproj", "{FE8F7C69-C0BC-45DE-ABC1-B0FB459A63C6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Элементы решения", "Элементы решения", "{88935E19-D7F0-426C-B604-57880D17D18C}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

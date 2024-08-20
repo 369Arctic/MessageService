@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FuoneNaUVzo=",
+  "dgSpecHash": "OMqpRyMbf2s=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Виктор\\Desktop\\ООО Тестовое Кошелек\\Кошелек\\MessageService\\MessageService\\MessageService.csproj",
+  "projectFilePath": "D:\\Git\\MessageService\\MessageService\\MessageService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Виктор\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\Виктор\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0\\microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",

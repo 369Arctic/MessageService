@@ -10,7 +10,6 @@ Log.Logger = new LoggerConfiguration()
 
 builder.Host.UseSerilog();
 
-// Подключение репозитория сообщений
 builder.Services.AddSingleton<IMessageRepository>(sp =>
     new MessageRepository(builder.Configuration.GetConnectionString("DefaultConnection")));
 
@@ -19,13 +18,13 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddCors(options =>
 {
-    options.AddPolicy("CorsPolicy", builder =>
-    {
-        builder.WithOrigins("https://localhost:5002", "https://localhost:5004")
-               .AllowAnyMethod()
-               .AllowAnyHeader()
-               .AllowCredentials();
-    });
+    options.AddPolicy("AllowAll",
+           builder =>
+           {
+               builder.AllowAnyOrigin()
+                      .AllowAnyMethod()
+                      .AllowAnyHeader();
+           });
 });
 
 var app = builder.Build();
@@ -33,15 +32,26 @@ var app = builder.Build();
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
-    app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "SimpleServer API v1"));
+    app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "MessageService API v1"));
 }
+
+// Middleware для перенаправления на Swagger
+app.Use(async (context, next) =>
+{
+    if (context.Request.Path == "/")
+    {
+        context.Response.Redirect("/swagger");
+        return;
+    }
+    await next();
+});
 
 app.UseHttpsRedirection();
 app.UseRouting();
-app.UseCors("CorsPolicy"); // Используем CORS policy
+app.UseCors("AllowAll");
 app.UseAuthorization();
 
-app.UseWebSockets(); // Добавление поддержки WebSocket
+app.UseWebSockets();
 
 app.MapControllers();
 

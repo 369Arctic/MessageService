@@ -50,7 +50,8 @@ namespace MessageRecentViewer.Controllers
         {
             _logger.LogInformation("Запрос на получение сообщений за последнюю минуту.");
 
-            var response = await _httpClient.GetAsync("https://localhost:5001/api/messages/recent");
+            //var response = await _httpClient.GetAsync("https://localhost:5001/api/messages/recent");
+            var response = await _httpClient.GetAsync("http://messageservice:5001/api/messages/recent");
             response.EnsureSuccessStatusCode();
 
             var json = await response.Content.ReadAsStringAsync();

@@ -1710,11 +1710,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Виктор\\Desktop\\ООО Тестовое Кошелек\\Кошелек\\MessageService\\MessageService\\MessageService.csproj",
+      "projectUniqueName": "D:\\Git\\MessageService\\MessageService\\MessageService.csproj",
       "projectName": "MessageService",
-      "projectPath": "C:\\Users\\Виктор\\Desktop\\ООО Тестовое Кошелек\\Кошелек\\MessageService\\MessageService\\MessageService.csproj",
+      "projectPath": "D:\\Git\\MessageService\\MessageService\\MessageService.csproj",
       "packagesPath": "C:\\Users\\Виктор\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Виктор\\Desktop\\ООО Тестовое Кошелек\\Кошелек\\MessageService\\MessageService\\obj\\",
+      "outputPath": "D:\\Git\\MessageService\\MessageService\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Виктор\\AppData\\Roaming\\NuGet\\NuGet.Config",

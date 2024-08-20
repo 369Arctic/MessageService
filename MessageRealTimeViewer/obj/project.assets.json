@@ -1253,11 +1253,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Виктор\\Desktop\\ООО Тестовое Кошелек\\Кошелек\\MessageService\\MessageRealTimeViewer\\MessageRealTimeViewer.csproj",
+      "projectUniqueName": "D:\\Git\\MessageService\\MessageRealTimeViewer\\MessageRealTimeViewer.csproj",
       "projectName": "MessageRealTimeViewer",
-      "projectPath": "C:\\Users\\Виктор\\Desktop\\ООО Тестовое Кошелек\\Кошелек\\MessageService\\MessageRealTimeViewer\\MessageRealTimeViewer.csproj",
+      "projectPath": "D:\\Git\\MessageService\\MessageRealTimeViewer\\MessageRealTimeViewer.csproj",
       "packagesPath": "C:\\Users\\Виктор\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Виктор\\Desktop\\ООО Тестовое Кошелек\\Кошелек\\MessageService\\MessageRealTimeViewer\\obj\\",
+      "outputPath": "D:\\Git\\MessageService\\MessageRealTimeViewer\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Виктор\\AppData\\Roaming\\NuGet\\NuGet.Config",

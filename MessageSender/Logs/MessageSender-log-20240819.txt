@@ -1,0 +1,72 @@
+2024-08-19 17:37:52.726 +05:00 [INF] User profile is available. Using 'C:\Users\Виктор\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-19 17:37:53.066 +05:00 [INF] Now listening on: https://localhost:5002
+2024-08-19 17:37:53.066 +05:00 [INF] Now listening on: http://localhost:5262
+2024-08-19 17:37:53.110 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-19 17:37:53.110 +05:00 [INF] Hosting environment: Development
+2024-08-19 17:37:53.110 +05:00 [INF] Content root path: C:\Users\Виктор\Desktop\ООО Тестовое Кошелек\Кошелек\MessageService\MessageSender
+2024-08-19 17:38:27.813 +05:00 [INF] Request starting HTTP/2 GET https://localhost:5002/ - null null
+2024-08-19 17:38:29.351 +05:00 [INF] Executing endpoint 'MessageSender.Controllers.HomeController.Index (MessageSender)'
+2024-08-19 17:38:29.394 +05:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller MessageSender.Controllers.HomeController (MessageSender).
+2024-08-19 17:38:29.408 +05:00 [INF] Executing ViewResult, running view Index.
+2024-08-19 17:38:29.724 +05:00 [INF] Executed ViewResult - view Index executed in 320.7919ms.
+2024-08-19 17:38:29.728 +05:00 [INF] Executed action MessageSender.Controllers.HomeController.Index (MessageSender) in 333.7504ms
+2024-08-19 17:38:29.729 +05:00 [INF] Executed endpoint 'MessageSender.Controllers.HomeController.Index (MessageSender)'
+2024-08-19 17:38:29.740 +05:00 [INF] Request finished HTTP/2 GET https://localhost:5002/ - 200 null text/html; charset=utf-8 1928.0013ms
+2024-08-19 17:38:29.851 +05:00 [INF] Request starting HTTP/2 GET https://localhost:5002/lib/bootstrap/dist/css/bootstrap.min.css - null null
+2024-08-19 17:38:29.851 +05:00 [INF] Request starting HTTP/2 GET https://localhost:5002/MessageSender.styles.css?v=_2_1lF9v8WM3-l_7Dp89J1At2r8vNVUJGsvjP5z0--E - null null
+2024-08-19 17:38:29.851 +05:00 [INF] Request starting HTTP/2 GET https://localhost:5002/lib/jquery/dist/jquery.min.js - null null
+2024-08-19 17:38:29.851 +05:00 [INF] Request starting HTTP/2 GET https://localhost:5002/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - null null
+2024-08-19 17:38:29.853 +05:00 [INF] Request starting HTTP/2 GET https://localhost:5002/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-19 17:38:29.858 +05:00 [INF] Request starting HTTP/2 GET https://localhost:5002/lib/bootstrap/dist/js/bootstrap.bundle.min.js - null null
+2024-08-19 17:38:29.864 +05:00 [INF] Request starting HTTP/2 GET https://localhost:5002/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - null null
+2024-08-19 17:38:29.876 +05:00 [INF] The file /lib/bootstrap/dist/js/bootstrap.bundle.min.js was not modified
+2024-08-19 17:38:29.876 +05:00 [INF] The file /js/site.js was not modified
+2024-08-19 17:38:29.876 +05:00 [INF] The file /lib/bootstrap/dist/css/bootstrap.min.css was not modified
+2024-08-19 17:38:29.876 +05:00 [INF] The file /css/site.css was not modified
+2024-08-19 17:38:29.876 +05:00 [INF] The file /MessageSender.styles.css was not modified
+2024-08-19 17:38:29.877 +05:00 [INF] Request finished HTTP/2 GET https://localhost:5002/lib/bootstrap/dist/js/bootstrap.bundle.min.js - 304 null text/javascript 18.5052ms
+2024-08-19 17:38:29.877 +05:00 [INF] Request finished HTTP/2 GET https://localhost:5002/lib/bootstrap/dist/css/bootstrap.min.css - 304 null text/css 26.9511ms
+2024-08-19 17:38:29.877 +05:00 [INF] Request finished HTTP/2 GET https://localhost:5002/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - 304 null text/javascript 13.0894ms
+2024-08-19 17:38:29.877 +05:00 [INF] Request finished HTTP/2 GET https://localhost:5002/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - 304 null text/css 26.951ms
+2024-08-19 17:38:29.877 +05:00 [INF] Request finished HTTP/2 GET https://localhost:5002/MessageSender.styles.css?v=_2_1lF9v8WM3-l_7Dp89J1At2r8vNVUJGsvjP5z0--E - 304 null text/css 26.9515ms
+2024-08-19 17:38:29.889 +05:00 [INF] Request finished HTTP/2 GET https://localhost:5002/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 37.6737ms
+2024-08-19 17:38:29.976 +05:00 [INF] The file /lib/jquery/dist/jquery.min.js was not modified
+2024-08-19 17:38:29.977 +05:00 [INF] Request finished HTTP/2 GET https://localhost:5002/lib/jquery/dist/jquery.min.js - 304 null text/javascript 125.478ms
+2024-08-19 17:38:30.031 +05:00 [INF] Request starting HTTP/2 GET https://localhost:5002/_vs/browserLink - null null
+2024-08-19 17:38:41.127 +05:00 [INF] Request finished HTTP/2 GET https://localhost:5002/_vs/browserLink - 200 null text/javascript; charset=UTF-8 11095.8759ms
+2024-08-19 18:53:47.147 +05:00 [INF] User profile is available. Using 'C:\Users\Виктор\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-19 18:53:47.536 +05:00 [INF] Now listening on: https://localhost:5002
+2024-08-19 18:53:47.536 +05:00 [INF] Now listening on: http://localhost:5262
+2024-08-19 18:53:47.568 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-19 18:53:47.569 +05:00 [INF] Hosting environment: Development
+2024-08-19 18:53:47.569 +05:00 [INF] Content root path: C:\Users\Виктор\Desktop\ООО Тестовое Кошелек\Кошелек\MessageService\MessageSender
+2024-08-19 18:54:13.359 +05:00 [INF] Request starting HTTP/2 GET https://localhost:5002/ - null null
+2024-08-19 18:54:15.742 +05:00 [INF] Executing endpoint 'MessageSender.Controllers.HomeController.Index (MessageSender)'
+2024-08-19 18:54:15.776 +05:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller MessageSender.Controllers.HomeController (MessageSender).
+2024-08-19 18:54:15.788 +05:00 [INF] Executing ViewResult, running view Index.
+2024-08-19 18:54:15.997 +05:00 [INF] Executed ViewResult - view Index executed in 212.8837ms.
+2024-08-19 18:54:15.999 +05:00 [INF] Executed action MessageSender.Controllers.HomeController.Index (MessageSender) in 222.1199ms
+2024-08-19 18:54:15.999 +05:00 [INF] Executed endpoint 'MessageSender.Controllers.HomeController.Index (MessageSender)'
+2024-08-19 18:54:16.002 +05:00 [INF] Request finished HTTP/2 GET https://localhost:5002/ - 200 null text/html; charset=utf-8 2644.5833ms
+2024-08-19 18:54:24.766 +05:00 [INF] Request starting HTTP/2 GET https://localhost:5002/_vs/browserLink - null null
+2024-08-19 18:54:24.766 +05:00 [INF] Request starting HTTP/2 GET https://localhost:5002/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-19 18:54:26.010 +05:00 [INF] Request finished HTTP/2 GET https://localhost:5002/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 1242.8029ms
+2024-08-19 18:54:35.314 +05:00 [INF] Request finished HTTP/2 GET https://localhost:5002/_vs/browserLink - 200 null text/javascript; charset=UTF-8 10548.3292ms
+2024-08-19 19:03:41.262 +05:00 [INF] User profile is available. Using 'C:\Users\Виктор\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-19 19:03:41.624 +05:00 [INF] Now listening on: https://localhost:5002
+2024-08-19 19:03:41.624 +05:00 [INF] Now listening on: http://localhost:5262
+2024-08-19 19:03:41.655 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-19 19:03:41.655 +05:00 [INF] Hosting environment: Development
+2024-08-19 19:03:41.655 +05:00 [INF] Content root path: C:\Users\Виктор\Desktop\ООО Тестовое Кошелек\Кошелек\MessageService\MessageSender
+2024-08-19 19:03:45.505 +05:00 [INF] Request starting HTTP/2 GET https://localhost:5002/ - null null
+2024-08-19 19:03:45.732 +05:00 [INF] Executing endpoint 'MessageSender.Controllers.HomeController.Index (MessageSender)'
+2024-08-19 19:03:45.764 +05:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller MessageSender.Controllers.HomeController (MessageSender).
+2024-08-19 19:03:45.776 +05:00 [INF] Executing ViewResult, running view Index.
+2024-08-19 19:03:45.925 +05:00 [INF] Executed ViewResult - view Index executed in 153.0229ms.
+2024-08-19 19:03:45.931 +05:00 [INF] Executed action MessageSender.Controllers.HomeController.Index (MessageSender) in 165.5989ms
+2024-08-19 19:03:45.931 +05:00 [INF] Executed endpoint 'MessageSender.Controllers.HomeController.Index (MessageSender)'
+2024-08-19 19:03:45.941 +05:00 [INF] Request finished HTTP/2 GET https://localhost:5002/ - 200 null text/html; charset=utf-8 436.3403ms
+2024-08-19 19:03:46.296 +05:00 [INF] Request starting HTTP/2 GET https://localhost:5002/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-19 19:03:46.308 +05:00 [INF] Request starting HTTP/2 GET https://localhost:5002/_vs/browserLink - null null
+2024-08-19 19:03:46.311 +05:00 [INF] Request finished HTTP/2 GET https://localhost:5002/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 14.7071ms
+2024-08-19 19:03:46.376 +05:00 [INF] Request finished HTTP/2 GET https://localhost:5002/_vs/browserLink - 200 null text/javascript; charset=UTF-8 68.747ms

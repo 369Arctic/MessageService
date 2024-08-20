@@ -9,17 +9,15 @@ Log.Logger = new LoggerConfiguration()
 
 builder.Host.UseSerilog();
 
-// Регистрация HttpClient для использования в контроллерах
 builder.Services.AddHttpClient();
 
-// Остальные конфигурации
 builder.Services.AddControllersWithViews();
 
 var app = builder.Build();
 
-// Остальная конфигурация приложения
 
 app.UseHttpsRedirection();
+app.UseWebSockets();
 app.UseStaticFiles();
 app.UseRouting();
 app.UseAuthorization();

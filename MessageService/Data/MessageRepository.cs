@@ -11,18 +11,6 @@ namespace MessageService.Data
         {
             _connectionString = connectionString;
         }
-        //public void AddMessage(Message message)
-        //{
-        //    using var connection = new NpgsqlConnection(_connectionString);
-        //    connection.Open();
-
-        //    using var cmd = new NpgsqlCommand("INSERT INTO messages (Content, Timestamp) VALUES (@content, @timestamp)", connection);
-        //    cmd.Parameters.AddWithValue("Content", message.Content);
-        //    cmd.Parameters.AddWithValue("Timestamp", message.Timestamp);
-        //    message.Id = (int)cmd.ExecuteScalar();
-        //    return message;
-        //}
-
         public Message AddMessage(Message message)
         {
             using (var connection = new NpgsqlConnection(_connectionString))
